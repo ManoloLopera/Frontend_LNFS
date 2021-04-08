@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/nombreJugador"
+    android:hint="Nombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <EditText
+        android:id="@+id/sobrenombre"
+        android:hint="Sobrenombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Spinner
+        android:id="@+id/posicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:entries="@array/posiciones"
+        android:hint="Posicion"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+</LinearLayout>

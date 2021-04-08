@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="posiciones">
+        <item>Portero</item>
+        <item>Cierre</item>
+        <item>Ala-cierre</item>
+        <item>Ala</item>
+        <item>Ala-pivot</item>
+        <item>Pívot</item>
+    </string-array>
+</resources>
